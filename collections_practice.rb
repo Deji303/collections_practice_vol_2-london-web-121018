@@ -44,9 +44,12 @@ def merge_data (keys,data)
 end 
 
 def find_cool (array)
- 
-array
+  newA = []; 
+  array.each {|x| x.values.each{|y| y == "cool" ? newA.push(x)}}
+  newA 
 end 
 
-[{:name=>"blake", :temperature=>"cool"}]
+# [{:name=>"blake", :temperature=>"cool"}]
+
+# [{:name=>"ashley", :temperature=>"sort of cool"}, {:name=>"blake", :temperature=>"cool"}]
 
