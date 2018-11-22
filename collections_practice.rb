@@ -64,3 +64,12 @@ end
  "dev boot camp chicago"=>{:location=>"Chicago"},
  "general assembly"=>{:location=>"NYC"},
  "Hack Reactor"=>{:location=>"SF"}}
+ 
+ 
+ {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
+ 
+ 
+ 
+ newO = {}
+ 
+ array.values.each {|x| new[x] = }
