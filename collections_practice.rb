@@ -48,6 +48,7 @@ def find_cool (array)
   array.each {|x| x.values.each do |y| 
     if y == "cool"
      newA.push(x)
+    end
   end 
   newA 
 end 
