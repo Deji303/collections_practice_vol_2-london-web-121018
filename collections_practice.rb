@@ -44,36 +44,8 @@ def merge_data (keys,data)
 end 
 
 def find_cool (array)
-binding.pry 
+ 
 array
 end 
 
 
-
-# [{"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"},
-#   "ashley"=>{:awesomeness=>9, :height=>60, :last_name=>"dubs"}}]
-  
-#   [{:first_name=>"blake"}, {:first_name=>"ashley"}]
-  
-
-# [{:awesomeness=>10, :first_name=>"blake", :height=>"74", :last_name=>"johnson"}, {:awesomeness=>9, :first_name=>"ashley", :height=>60, :last_name=>"dubs"}]
- 
- 
-# data[0] = {"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"},
-#   "ashley"=>{:awesomeness=>9, :height=>60, :last_name=>"dubs"}}
-  
-#   key[0] = {:first_name=>"blake"}
-  
-#   key[0][:first_name] = "blake"
-  
-#   data[0][key[0][:first_name]] = {:awesomeness=>10, :height=>"74", :last_name=>"johnson"}
-#   frank = data[0][key[0][:first_name]]
-  
-#   data[0][key[0][:first_name]][:first_name] = "blake"
-  
-#   newA.push (frank)
-  
-  
-#   newA = [];
-  
-#   keys.each {|x| x.values}
