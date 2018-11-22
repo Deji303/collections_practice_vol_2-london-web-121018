@@ -53,7 +53,6 @@ def find_cool (array)
   newA 
 end 
 
-# [{:name=>"blake", :temperature=>"cool"}]
-
-# [{:name=>"ashley", :temperature=>"sort of cool"}, {:name=>"blake", :temperature=>"cool"}]
-
+def organize_schools 
+  
+end 
