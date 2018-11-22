@@ -48,4 +48,5 @@ def find_cool (array)
 array
 end 
 
+[{:name=>"blake", :temperature=>"cool"}]
 
