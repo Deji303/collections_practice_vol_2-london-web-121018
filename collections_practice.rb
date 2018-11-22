@@ -76,4 +76,4 @@ end
  
  
  
- 
+ array.select{|key, hash| hash["client_id"] == "2180" }
