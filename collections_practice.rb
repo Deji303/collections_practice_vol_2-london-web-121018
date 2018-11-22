@@ -49,7 +49,7 @@ def find_cool (array)
     if y == "cool"
      newA.push(x)
     end
-  end 
+  end }
   newA 
 end 
 
