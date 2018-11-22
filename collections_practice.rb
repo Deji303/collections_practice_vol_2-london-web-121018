@@ -53,6 +53,6 @@ def find_cool (array)
   newA 
 end 
 
-def organize_schools 
-  
+def organize_schools (array)
+  binding.pry 
 end 
