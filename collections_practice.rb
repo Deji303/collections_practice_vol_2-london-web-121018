@@ -72,4 +72,8 @@ end
  
  newO = {}
  
- array.values.each {|x| new[x] = }
+ array.values.each {|x| new[x] = []}
+ 
+ 
+ 
+ 
