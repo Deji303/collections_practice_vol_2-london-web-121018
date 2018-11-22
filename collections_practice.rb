@@ -57,7 +57,7 @@ def organize_schools (array)
       newO = {};
       array.values.each do |x| 
       find_city = array.select{|key, hash| hash[:location] == x.values[0] };
-      binding.pry
+      
       newO[x.values[0]] = find_city.keys
       end 
       newO
