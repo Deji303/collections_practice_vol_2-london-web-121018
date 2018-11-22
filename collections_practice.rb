@@ -54,26 +54,27 @@ def find_cool (array)
 end 
 
 def organize_schools (array)
+  binding.pry
   array 
 end 
 
 
- {"flatiron school bk"=>{:location=>"NYC"},
- "flatiron school"=>{:location=>"NYC"},
- "dev boot camp"=>{:location=>"SF"},
- "dev boot camp chicago"=>{:location=>"Chicago"},
- "general assembly"=>{:location=>"NYC"},
- "Hack Reactor"=>{:location=>"SF"}}
+# {"flatiron school bk"=>{:location=>"NYC"},
+# "flatiron school"=>{:location=>"NYC"},
+# "dev boot camp"=>{:location=>"SF"},
+# "dev boot camp chicago"=>{:location=>"Chicago"},
+# "general assembly"=>{:location=>"NYC"},
+# "Hack Reactor"=>{:location=>"SF"}}
  
  
- {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
- 
- 
- 
- newO = {}
- 
- array.values.each {|x| new[x] = []}
+# {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
  
  
  
- array.select{|key, hash| hash["client_id"] == "2180" }
+# newO = {}
+ 
+# array.values.each {|x| new[x] = []}
+ 
+ 
+ 
+# array.select{|key, hash| hash[:location] == "NYC" }
