@@ -54,8 +54,11 @@ def find_cool (array)
 end 
 
 def organize_schools (array)
-  binding.pry
-  array 
+      array.values.each do |x| 
+      find_city = array.select{|key, hash| hash[:location] == x.values };
+      newO[x.values] = find_city.keys
+      end 
+      newO
 end 
 
 
@@ -67,14 +70,22 @@ end
 # "Hack Reactor"=>{:location=>"SF"}}
  
  
-# {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
+# # {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
  
  
  
-# newO = {}
+# # newO = {}
  
-# array.values.each {|x| new[x] = []}
+# # array.values.each do |x| 
+
+#     find_city = array.select{|key, hash| hash[:location] == x.values };
+#     newO[x.values] = find_city.keys
+# end 
  
  
  
-# array.select{|key, hash| hash[:location] == "NYC" }
+ 
+ 
+ 
+# find_city = array.select{|key, hash| hash[:location] == x.values };
+# find_city.keys 
